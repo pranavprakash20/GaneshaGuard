@@ -1,0 +1,4 @@
+pytest
+paramiko
+requests
+pytest-html
