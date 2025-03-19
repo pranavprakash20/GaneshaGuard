@@ -1,6 +1,6 @@
 server:
   ip: "127.0.0.1"
-  ganesha_bin_path: "/usr/bin/ganesha.nfsd"
+  ganesha_bin_path: "/home/workspace/NFS-Ganesha-fsal-cephfs/nfs-ganesha/build/ganesha.nfsd"
 
 nfs:
   export_path: "/export"
