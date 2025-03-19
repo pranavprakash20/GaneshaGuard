@@ -1,0 +1,13 @@
+server:
+  ip: "127.0.0.1"
+  ganesha_bin_path: "/usr/bin/ganesha.nfsd"
+
+nfs:
+  export_path: "/export"
+  pseudo_path: "/nfs"
+  mount_point: "/mnt/nfs_test"
+  backend: "VFS"  # Change to CephFS or GlusterFS as needed
+
+log:
+  ganesha_log: "/var/log/ganesha.log"
+  test_log: "/var/log/test.log"
